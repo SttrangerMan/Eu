@@ -1,0 +1,31 @@
+.oculto {
+    display: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div button{
+    border-radius: 5px;
+    background-color: white;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+div button:hover{
+    border: 2px solid;
+    transform: scale(1.1);
+    background-color: gray;
+    color: white;
+}
+
+#Achou{
+    font-size: 50px;
+}
